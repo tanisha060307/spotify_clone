@@ -43,6 +43,8 @@ nav ul li{
    border-radius: 12px;
     margin: 23px auto;
     width: 70%;
+    padding:34px;
+    background-image: url('bg.jpg');
 }
 .bottom{
     position: sticky;
@@ -62,6 +64,7 @@ nav ul li{
     cursor: pointer;
     margin-top: 14px;
 }
-#MyProgressBar{
-    width: 80vw;
+#myProgressBar{
+    width: 80%;
+    cursor: pointer;
 }
