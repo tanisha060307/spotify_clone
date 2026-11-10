@@ -35,5 +35,7 @@ nav ul li{
     font-size: 1.3rem;
 }
 .bottom{
-    
+    position: sticky;
+    height:130px;
+    background-color: black;
 }
