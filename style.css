@@ -142,3 +142,227 @@ nav ul li{
     height: 42px;
     object-fit: contain;
 }
+
+/* Navigation Links */
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #1ed760;
+}
+
+/* About Page */
+
+body {
+    background-color: #121212;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.aboutContainer {
+    width: 80%;
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+/* Hero Section */
+
+.aboutHero {
+    background: linear-gradient(135deg, #063d20, #121212 75%);
+    padding: 65px 50px;
+    border-radius: 15px;
+    margin-bottom: 45px;
+}
+
+.aboutEyebrow {
+    color: #1ed760;
+    letter-spacing: 3px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.aboutHero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.aboutDescription {
+    color: #cccccc;
+    line-height: 1.8;
+    max-width: 650px;
+    margin-bottom: 30px;
+}
+
+.exploreBtn {
+    display: inline-block;
+    background-color: #1ed760;
+    color: black;
+    padding: 13px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.exploreBtn:hover {
+    transform: scale(1.05);
+    background-color: #1fdf64;
+}
+
+/* General Sections */
+
+.aboutSection {
+    margin: 50px 0;
+}
+
+.aboutSection h2,
+.developerSection h2 {
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+/* Feature Cards */
+
+.featureGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.featureCard {
+    background-color: #202020;
+    padding: 25px;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+.featureCard:hover {
+    background-color: #292929;
+    transform: translateY(-5px);
+}
+
+.featureCard i {
+    font-size: 28px;
+    color: #1ed760;
+    margin-bottom: 18px;
+}
+
+.featureCard h3 {
+    margin-bottom: 12px;
+}
+
+.featureCard p {
+    color: #b3b3b3;
+    line-height: 1.6;
+}
+
+/* Technologies */
+
+.techList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.techList span {
+    background-color: #202020;
+    padding: 15px 25px;
+    border-radius: 8px;
+    color: white;
+}
+
+.techList i {
+    color: #1ed760;
+    margin-right: 8px;
+}
+
+/* Developer Section */
+
+.developerSection {
+    margin: 60px 0;
+}
+
+.developerCard {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    background-color: #202020;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.developerIcon {
+    min-width: 85px;
+    height: 85px;
+    background-color: #1ed760;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 35px;
+}
+
+.developerCard h3 {
+    font-size: 23px;
+    margin-bottom: 8px;
+}
+
+.developerRole {
+    color: #1ed760;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.developerCard p:last-child {
+    color: #b3b3b3;
+    line-height: 1.8;
+}
+
+/* Footer */
+
+.aboutFooter {
+    text-align: center;
+    padding: 35px 10px;
+    color: #999999;
+    border-top: 1px solid #333333;
+    line-height: 2;
+}
+
+.aboutFooter i {
+    color: #1ed760;
+    font-size: 25px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 650px) {
+
+    .aboutContainer {
+        width: 90%;
+    }
+
+    .aboutHero {
+        padding: 40px 25px;
+    }
+
+    .aboutHero h1 {
+        font-size: 2rem;
+    }
+
+    .featureGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .developerCard {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+}
