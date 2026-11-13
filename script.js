@@ -71,6 +71,7 @@ function updatePlaybackUI() {
 
   songPlayButtons.forEach((button, index) => {
     const isCurrentSongPlaying = index === songIndex && isPlaying;
+    button.closest('.songItem').classList.toggle('is-playing', isCurrentSongPlaying);
     const icon = button.querySelector('i');
     icon.classList.toggle('fa-play-circle', !isCurrentSongPlaying);
     icon.classList.toggle('fa-pause-circle', isCurrentSongPlaying);

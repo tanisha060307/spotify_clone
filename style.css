@@ -85,6 +85,19 @@ nav ul li{
     justify-content: space-between;
     align-items: center;
     border-radius: 34px;
+    transition: background-color 0.25s ease, box-shadow 0.25s ease;
+}
+.songItem.is-playing{
+    background-color: #1ed760;
+    box-shadow: 0 0 12px rgba(30, 215, 96, 0.7);
+    transform: scale(1.025);
+    position: relative;
+    z-index: 1;
+    animation: playingGlow 1.4s ease-in-out infinite alternate;
+}
+@keyframes playingGlow{
+    from{ box-shadow: 0 0 8px rgba(30, 215, 96, 0.55); }
+    to{ box-shadow: 0 0 18px rgba(30, 215, 96, 0.9); }
 }
 .songItem img{
     width: 43px;
