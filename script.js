@@ -6,13 +6,14 @@ let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
 let songs =[
     {songName:"Amake amar moto thakte dao", filePath:"1song.mp3", coverPath:"cover1.jpg"},
-    {songName:"Amake amar moto thakte dao", filePath:"1song.mp3", coverPath:"cover1.jpg"},
-    {songName:"Amake amar moto thakte dao", filePath:"1song.mp3", coverPath:"cover1.jpg"},
-  {songName:"Amake amar moto thakte dao", filePath:"1song.mp3", coverPath:"cover1.jpg"},
-    {songName:"Amake amar moto thakte dao", filePath:"1song.mp3", coverPath:"cover1.jpg"},
-    {songName:"Amake amar moto thakte dao", filePath:"1song.mp3", coverPath:"cover1.jpg"},
-    {songName:"Amake amar moto thakte dao", filePath:"1song.mp3", coverPath:"cover1.jpg"},
-    {songName:"Amake amar moto thakte dao", filePath:"1song.mp3", coverPath:"cover1.jpg"},
+    {songName:"Amake amar moto thakte dao", filePath:"2song.mp3", coverPath:"cover1.jpg"},
+    {songName:"Amake amar moto thakte dao", filePath:"3song.mp3", coverPath:"cover1.jpg"},
+    {songName:"Amake amar moto thakte dao", filePath:"4song.mp3", coverPath:"cover1.jpg"},
+    {songName:"Amake amar moto thakte dao", filePath:"5song.mp3", coverPath:"cover1.jpg"},
+    {songName:"Amake amar moto thakte dao", filePath:"6song.mp3", coverPath:"cover1.jpg"},
+    {songName:"Amake amar moto thakte dao", filePath:"7song.mp3", coverPath:"cover1.jpg"},
+    {songName:"Amake amar moto thakte dao", filePath:"8song.mp3", coverPath:"cover1.jpg"},
+    {songName:"Amake amar moto thakte dao", filePath:"9song.mp3", coverPath:"cover1.jpg"}
 ]
 
 // audioElement.play();
