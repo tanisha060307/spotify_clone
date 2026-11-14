@@ -325,6 +325,30 @@ body {
     line-height: 1.8;
 }
 
+.developerSocialLinks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.developerSocial {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border: 1px solid #1ed760;
+    border-radius: 24px;
+    color: #1ed760;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.developerSocial:hover {
+    background-color: #1ed760;
+    color: #121212;
+}
+
 /* Footer */
 
 .aboutFooter {
